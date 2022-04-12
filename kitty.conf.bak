@@ -1159,6 +1159,7 @@ editor /usr/local/bin/nvim
 
 #:     env MYVAR1=a
 #:     env MYVAR2=${MYVAR1}/${HOME}/b
+env PATH=/usr/local/opt/node@16/bin/:/usr/local/bin:/usr/bin:/bin:/usr/local/opt/python@3.8/libexec/bin
 
 #: The value of MYVAR2 will be a/<path to home directory>/b. Using
 #: VAR= will set it to the empty string and using just VAR will delete
@@ -2061,6 +2062,6 @@ editor /usr/local/bin/nvim
 
 
 # BEGIN_KITTY_THEME
-# Aquarium Light
+# Github
 include current-theme.conf
 # END_KITTY_THEME
