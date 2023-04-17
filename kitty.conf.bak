@@ -1280,7 +1280,7 @@ env PATH=/usr/local/opt/node@16/bin/:/usr/local/bin:/usr/bin:/bin:/usr/local/opt
 #: system means to use the default system color, a value of background
 #: means to use the background color of the currently active window
 #: and finally you can use an arbitrary color, such as #12af59 or red.
-# macos_titlebar_color dark
+macos_titlebar_color dark
 
 #: Change the color of the kitty window's titlebar on macOS. A value
 #: of system means to use the default system color, light or dark can
@@ -2072,6 +2072,6 @@ map alt+, move_tab_backward
 
 
 # BEGIN_KITTY_THEME
-# GitHub Dark Dimmed
+# Doom One
 include current-theme.conf
 # END_KITTY_THEME
